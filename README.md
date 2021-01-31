@@ -18,7 +18,7 @@ Gilles Blanchard, Aniket Anand Deshmukh, Urun Dogan, Gyemin Lee, and Clayton Sco
 - **Generalizing from Several Related Classification Tasks to a New Unlabeled Sample**  
 Gilles Blanchard, Gyemin Lee, and Clayton Scott. (NIPS 2011)   
 `#classification` `#kernel`   
-[[paper]](https://proceedings.neurips.cc/paper/2011/file/b571ecea16a9824023ee1af16897a582-Paper.pdf)
+[[paper]](https://papers.nips.cc/paper/2011/hash/b571ecea16a9824023ee1af16897a582-Abstract.html)
 
 #### Computer Vision Community
 - **Rethinking Domain Generalization Baselines**    
