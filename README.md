@@ -5,6 +5,7 @@ This repository aims to summarize the papers on domain generalization for non-im
 
 - [Literatures](#Literatures)
   - [Methods Paper](#Methods-Paper)
+- [Datasets](#Datasets)
  
 ## Literatures
 
@@ -56,7 +57,13 @@ Ya Li, Xinmei Tian, Mingming Gong, Yajing Liu, Tongliang Liu, Kun Zhang, Dacheng
 [[paper]](https://openaccess.thecvf.com/content_ECCV_2018/html/Ya_Li_Deep_Domain_Generalization_ECCV_2018_paper.html)
 [[code]](http://staff.ustc.edu.cn/~xinmei/publications_pdf/2018/code-YaLi.zip)
 
-### TODOes
+## Datasets
+### Non-Image Datasets
+#### Synthetic datasets
+
+### Image Datasets
+
+## TODOes
 - https://github.com/amber0309/Domain-generalization
 - Catergorization
   - Feature Alignment, Meta-Learning, Self-supervised, Data Augmentation (https://arxiv.org/abs/2101.09060)
