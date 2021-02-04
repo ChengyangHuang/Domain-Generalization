@@ -4,12 +4,13 @@ This repository aims to summarize the papers on domain generalization for non-im
 ## Table of Contents
 
 - [Literatures](#Literatures)
-  - [Methods Paper](#Methods-Paper)
+  - [Methods](#Methods)
+  - [Pure Computer Vision Methods](#Pure-Computer-Vision-Methods)
 - [Datasets](#Datasets)
  
 ## Literatures
 
-### Methods Paper
+### Methods
 
 - **(MDA) Domain Generalization via Multidomain Discriminant Analysis**   
 Shoubo Hu, Kun Zhang, Zhitang Chen, Laiwan Chan. _(UAI 2019)_    
@@ -30,9 +31,14 @@ Muhammad Ghifary, David Balduzzi, W. Bastiaan Kleijn, Mengjie Zhang. _(TPAMI 201
 
 - **(MTL) Domain Generalization by Marginal Transfer Learning**   
 Gilles Blanchard, Aniket Anand Deshmukh, Urun Dogan, Gyemin Lee, and Clayton Scott. _(arXiv 2017)_   
-`#classification` `#regression` `#kernel`   
+`#classification` `#regression` `#kernel` `#feature-augmentation`   
 [[paper]](https://arxiv.org/abs/1711.07910) 
 [[code]](https://github.com/aniketde/DomainGeneralizationMarginal)
+
+- **(DICA) Domain Generalization via Invariant Feature Representation**   
+Krikamol Muandet, David Balduzzi, Bernhard Schölkopf _(ICML 2013)_    
+`#classification` `#regression` `#kernel` `#feature-alignment`    
+[[paper]](http://proceedings.mlr.press/v28/muandet13.html)
 
 - **Generalizing from Several Related Classification Tasks to a New Unlabeled Sample**  
 Gilles Blanchard, Gyemin Lee, and Clayton Scott. _(NIPS 2011)_   
@@ -51,6 +57,17 @@ Shanshan Zhao, Mingming Gong, Tongliang Liu, Huan Fu, Dacheng Tao. _(NIPS 2020)_
 [[paper]](https://proceedings.neurips.cc/paper/2020/hash/b98249b38337c5088bbc660d8f872d6a-Abstract.html)
 [[code]](https://github.com/sshan-zhao/DG_via_ER)
 
+- **(GCFN) Generalized Convolutional Forest Networks for Domain Generalization and Visual Recognition**    
+Jongbin Ryu, Gitaek Kwon, Ming-Hsuan Yang, Jongwoo Lim. _(ICLR 2020)_   
+`#classification` `#CNN` `#ensemble` `#feature-alignment`   
+[[paper]](https://iclr.cc/virtual_2020/poster_H1lxVyStPH.html)
+
+- **(CSD) Efficient Domain Generalization via Common-Specific Low-Rank Decomposition**    
+Vihari Piratla, Praneeth Netrapalli, Sunita Sarawagi. _(ICML 2020)_   
+`#classification` `#CNN` `#decomposition`   
+[[paper]](http://proceedings.mlr.press/v119/piratla20a.html)
+[[code]](https://github.com/vihari/csd)
+
 - **(CIDDG) Deep Domain Generalization via Conditional Invariant Adversarial Networks**   
 Ya Li, Xinmei Tian, Mingming Gong, Yajing Liu, Tongliang Liu, Kun Zhang, Dacheng Tao. _(ECCV 2018)_   
 `#classification` `#CNN` `#feature-alignment` `#adversarial`    
@@ -67,3 +84,4 @@ Ya Li, Xinmei Tian, Mingming Gong, Yajing Liu, Tongliang Liu, Kun Zhang, Dacheng
 - https://github.com/amber0309/Domain-generalization
 - Catergorization
   - Feature Alignment, Meta-Learning, Self-supervised, Data Augmentation (https://arxiv.org/abs/2101.09060)
+  - domain erasure, domain perturbed, data augmentation, and meta-learning, Decomposition (https://arxiv.org/pdf/2003.12815.pdf)
