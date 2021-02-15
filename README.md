@@ -82,6 +82,15 @@ Ya Li, Xinmei Tian, Mingming Gong, Yajing Liu, Tongliang Liu, Kun Zhang, Dacheng
 
 ## TODOes
 - https://github.com/amber0309/Domain-generalization
+- domain adaption survey https://ieeexplore.ieee.org/document/7078994
 - Catergorization
   - Feature Alignment, Meta-Learning, Self-supervised, Data Augmentation (https://arxiv.org/abs/2101.09060)
   - domain erasure, domain perturbed, data augmentation, and meta-learning, Decomposition (https://arxiv.org/pdf/2003.12815.pdf)
+- SVM
+  - http://people.eecs.berkeley.edu/~tinghuiz/papers/eccv2012.pdf
+  - Exploiting low-rank structure from latent domains for domain generalization
+- Deep Learning Methods
+  - Domain generalization for object recognition with multi-task autoencoders
+  - Unified deep supervised domain adaptation and generalization.
+  - Domain generalization with adversarial feature learning
+  - Deeper, broader and artier domain generalization.
